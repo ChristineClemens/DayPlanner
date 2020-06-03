@@ -1,46 +1,24 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Schedule Web Application
+Christine Clemens - Fifth Homework Submission for the SCS Coding Bootcamp
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+### Objective:
+    The aim of this assignment was to successfully code the interactive javascript necessary to complete an interactive work day schedule web application in order to enter and record tasks according to their assigned times. The saved information is intended to be retrieved at a later time using local storage retrieval.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+### For this assignment, I was required to:
+* Display the current date and local time at the top of the page within the paragraph element.
+* Present the user with 8 time blocks representing each hour of the work day.
+* Mark time blocks appropriately with the hour, a text input field, and a save button.
+* Program each time block to correlate with the current time, changing colours appropriately.
+* Allow the user to enter text within the input box.
+* Make the button elements clickable and functional.
+* Allow the user to save information to local storage by clicking the save button for each text block.
+* Display the information stored to local storage.
+* Ensure that information stored to local storage persists when the application is closed and reopened.
 
-## User Story
+### I was also encouraged to:
+* Tweak the preset CSS styling for best results.
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+*I really enjoyed this assignment as I was able to really clarify, understand, and apply many concepts that until this point, I had understood but felt unprepared to put into practice. For the best aesthetic result, I opted to tweak some of the CSS properties, but tried to remain as faithful to the original styling as possible.
 
-## Acceptance Criteria
-
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Repository Link: https://github.com/ChristineClemens/DayPlanner
+Deployed Web Application Link: https://christineclemens.github.io/DayPlanner/

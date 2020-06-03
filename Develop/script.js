@@ -32,7 +32,7 @@ for (i = 9; i <= 17; i++) {
 //Add local time to paragraph element.
 document.querySelector("#currentDay").innerHTML = `${moment().format('MMMM Do YYYY, h:mm:ss a')}`;
 
-//Save button functionality - save to local storage.
+//Save button functionality - save hour and input value to local storage.
 function saveTask() {
     let time = this.getAttribute("time");
     let inputTask = document.querySelector(`#input${time}`).value;
