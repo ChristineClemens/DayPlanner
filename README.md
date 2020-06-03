@@ -2,7 +2,7 @@
 Christine Clemens - Fifth Homework Submission for the SCS Coding Bootcamp
 
 ### Objective:
-    The aim of this assignment was to successfully code the interactive javascript necessary to complete an interactive work day schedule web application in order to enter and record tasks according to their assigned times. The saved information is intended to be retrieved at a later time using local storage retrieval.
+The aim of this assignment was to successfully code the interactive javascript necessary to complete an interactive work day schedule web application in order to enter and record tasks according to their assigned times. The saved information is intended to be retrieved at a later time using local storage retrieval.
 
 ### For this assignment, I was required to:
 * Display the current date and local time at the top of the page within the paragraph element.
