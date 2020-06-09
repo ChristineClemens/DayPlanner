@@ -30,7 +30,10 @@ for (i = 9; i <= 17; i++) {
 }
 
 //Add local time to paragraph element.
+var updateTime = function() {
 document.querySelector("#currentDay").innerHTML = `${moment().format('MMMM Do YYYY, h:mm:ss a')}`;
+}
+setInterval (updateTime, 1000)
 
 //Save button functionality - save hour and input value to local storage.
 function saveTask() {
